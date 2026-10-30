@@ -9,6 +9,9 @@
 - **受け口のサーバーを外へ公開しません。** 取り込みはこちらから読みに行き（IMAP・公式 CLI）、通知は外へ送るだけ（LINE Messaging API の push・SMTP）。
 - 依存は Python 3.10 以上の標準ライブラリと `requests` だけ。社内のサーバー1台（Linux）で cron か systemd で動かします。
 
+- デモ（見本データ）: https://proto.exbridge.jp/kcallai/
+- 商品ページ（Kurage App Store）: https://kappstore.exbridge.jp/app.php?id=040964c27c153ec2
+
 ## 取り込み元
 
 | 取り込み元 | 方法 | 公式の根拠 |
