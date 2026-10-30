@@ -1,0 +1,2 @@
+# 毎朝7時に取り込み → 判定 → 日報 → LINE・メール
+0 7 * * * cd /opt/kcallai && set -a && . ./.env && set +a && /usr/bin/python3 -m kcallai run --ai >> outputs/run.log 2>&1

@@ -1,0 +1,12 @@
+{
+  "name": "サンプル水道サービス（見本）",
+  "company_words": ["サンプル水道"],
+  "sample": true,
+  "outputs": "outputs",
+  "sample_dir": "sample",
+  "tobila": {"mode": "dir", "dir": "sample/tobila"},
+  "plaud": {"mode": "dir", "dir": "sample/plaud"},
+  "ai": {"enabled": false, "command": "claude -p", "timeout": 300},
+  "line": {"enabled": false, "channel_access_token_env": "LINE_CHANNEL_ACCESS_TOKEN", "to": []},
+  "web": {"password": "", "host": "127.0.0.1", "port": 8080}
+}
